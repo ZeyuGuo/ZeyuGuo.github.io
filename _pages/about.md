@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# About me
 
 I'm a third year graduate student from [School of Cyber Science and Engineering](https://cse.hust.edu.cn/), [Huazhong University of Science and Technology](https://www.hust.edu.cn/). My research interest includes FPGA architectures and applications, computer architecture and machine learning.
 

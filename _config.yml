@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zeyu Guo / Personal Homepage"
+title                    : "Zeyu Guo's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Zeyu Guo"
 description              : &description "A third year graduate student from Huazhong University of Science and Technology."
@@ -22,7 +22,7 @@ repository               : "ZeyuGuo/ZeyuGuo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "4515.png"
+  avatar           : "255.png"
   name             : "Zeyu Guo"
   pronouns         : # example: "she/her"  
   bio              : #""
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
