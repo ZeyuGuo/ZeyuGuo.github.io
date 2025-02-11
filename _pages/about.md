@@ -13,7 +13,7 @@ I am very fortunate to be advised by [Prof. Liangqi Gui](http://sinc-lab.cse.hus
 
 You can find my CV here: [Zeyu Guo's Curriculum Vitae](../assets/CV.pdf).
 
-# Contact
+<!-- # Contact
 
-[Email](mailto:guozy@hust.edu.cn) / [Github](https://github.com/ZeyuGuo)
+[Email](mailto:guozy@hust.edu.cn) / [Github](https://github.com/ZeyuGuo) -->
 
