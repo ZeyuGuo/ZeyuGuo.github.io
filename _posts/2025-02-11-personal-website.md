@@ -9,7 +9,7 @@ tags:
 
 Personal website is a great way to let others know you better. This blog is about how to build a clear academic personal website. Like this:
 
-![alt text](../assets/images/image.png)
+![alt text](/assets/images/image.png)
 
 # Getting Started
 
@@ -19,15 +19,15 @@ Personal website is a great way to let others know you better. This blog is abou
 
 3. Click the "Use this template" button in the top right. And then click "Create a new repository".
 
-![alt text](../assets/images/1739244585576.png)
+![alt text](/assets/images/1739244585576.png)
 
 4. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
 
-![alt text](../assets/images/1739244672124.png)
+![alt text](/assets/images/1739244672124.png)
 
 5. Open the repository and click the "Settings", make sure the branch is set to "root". And then you will see your website link is available.
 
-![alt text](../assets/images/1739244840521.png)
+![alt text](/assets/images/1739244840521.png)
 
 6. Then you could click the website link and change the content based on your information.
 
@@ -35,7 +35,7 @@ Personal website is a great way to let others know you better. This blog is abou
 
 1. To change this part, you should revise `yourname.github.io/_pages/about.md`. 
 
-![alt text](../assets/images/image-1.png)
+![alt text](/assets/images/image-1.png)
 
 Here is an example:
 
@@ -51,11 +51,11 @@ You can find my CV here: [XX's Curriculum Vitae](.../assets/images/assets/Curric
 
 3. To change the sidebar, you should revise `yourname.github.io/_config.yml`.
 
-![alt text](../assets/images/image-2.png)
+![alt text](/assets/images/image-2.png)
 
 Change these contents based on your information. Note: the picture should be **"xx.png" format**. And you should upload your picture to `yourname.github.io/images` folder.
 
-![alt text](../assets/images/1739245494051.png)
+![alt text](/assets/images/1739245494051.png)
 
 If you don't need some functions, you can comment them.
 
