@@ -8,14 +8,6 @@ main:
   - title: "Publications"
     url: /publications/
   
-<<<<<<< HEAD
-  # - title: "Projects"
-  #   url: /projects/
-=======
-  #- title: "Projects"
-  #  url: /projects/
->>>>>>> 3cbb504eff6341f7b7b5a7815d550105589b01bf
-
   # - title: "Talks"
   #   url: /talks/    
 
