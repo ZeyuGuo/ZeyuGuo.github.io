@@ -63,6 +63,20 @@ If you don't need some functions, you can comment them.
 
 5, If you want to change the layout or structure of the page, you should learn some knowledge about `html` and revise the code of the page you want to change.
 
+# Using Docker
+
+Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+
+You can build and execute the container by running the following command in the repository:
+
+```bash
+docker compose up
+```
+
+You should now be able to access the website from `localhost:4000`.
+
+Note: the command `docker compose up` will use the config files `"_config.yml,_config_docker.yml"`. So if you change the config files after you run the command `docker compose up`, the changes will not show on the local website. But other changes like the blogs will show.
+
 # Writing blogs using images
 
 If you want to write a blog with images, you should first save the images to the path `yourname.github.io/assets/images`. Then check your `baseurl` in the `config.yml` file. For example in my `config.yml` file:
