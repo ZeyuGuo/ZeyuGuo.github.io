@@ -13,9 +13,9 @@ tags:
 
 # Summary of the publication
 
-[`EmuNoC`: Hybrid Emulation for Fast and Flexible Network-on-Chip Prototyping on FPGAs](https://arxiv.org/abs/2206.11613)
-
 The paper presents **EmuNoC**, a hybrid **emulation framework** for **prototyping Networks-on-Chip (NoCs) on FPGAs**. NoCs are critical for communication in multi-core CPUs and edge AI accelerators. EmuNoC enhances speed and flexibility compared to existing methods by using a hybrid approach where the NoC is emulated on the FPGA while traffic patterns are generated and controlled via software.
+
+[`EmuNoC`: Hybrid Emulation for Fast and Flexible Network-on-Chip Prototyping on FPGAs](https://arxiv.org/abs/2206.11613)
 
 Key contributions include:
 1. **Clock Synchronization Method**: A hardware-based approach to synchronize the NoC with the virtual platform.
@@ -240,7 +240,7 @@ And add the function below. In VHDL, the function block should add before archit
 
 - env: ubuntu 24.04, CPU Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
 
-- copy the generated NOC to the `EmuNOC-HW/src` folder. 注意这里是已经fix过之后的
+- copy the generated NOC to the `EmuNOC-HW/src` folder. 
 
 - Install latest GHDL
 
@@ -248,7 +248,7 @@ And add the function below. In VHDL, the function block should add before archit
 make install
 ```
 
-上面的指令实际上执行的是：
+this command means:
 
 ```bash
 	git clone https://github.com/ghdl/ghdl.git
@@ -270,7 +270,7 @@ make TEST_NAME=s_axis_ni_tb
 make TEST_NAME=top_tb
 ```
 
-报错：
+error:
 
 ```bash
 ./testbench/utils/traffic_gen.vhd:67:14:error: cannot open file: testdata/m_axis_ni_tb/in/inj_time.txt
@@ -282,7 +282,7 @@ make TEST_NAME=top_tb
 make: *** [Makefile:32: run] Error 1
 ```
 
-需要先 generate test data：
+generate test data firstly:
 
 ```bash
 cd EmuNoc-HW/testdata/m_axis_ni_tb
@@ -314,7 +314,7 @@ port_num = 7  # check noc pkg
 python generate_test_data.py
 ```
 
-还有报错：
+error:
 
 ```bash
 ./testbench/utils/traffic_gen.vhd:70:14:error: cannot open file: testdata/m_axis_ni_tb/out/inj_time.txt
