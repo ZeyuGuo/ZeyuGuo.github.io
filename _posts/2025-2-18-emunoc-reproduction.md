@@ -11,6 +11,11 @@ tags:
 
 `EmuNoC` is a hybrid emulation framework for prototyping Networks-on-Chip (NoCs) on FPGAs.
 
+---
+
+
+
+
 # Summary of the publication
 
 The paper presents **EmuNoC**, a hybrid **emulation framework** for **prototyping Networks-on-Chip (NoCs) on FPGAs**. NoCs are critical for communication in multi-core CPUs and edge AI accelerators. EmuNoC enhances speed and flexibility compared to existing methods by using a hybrid approach where the NoC is emulated on the FPGA while traffic patterns are generated and controlled via software.
