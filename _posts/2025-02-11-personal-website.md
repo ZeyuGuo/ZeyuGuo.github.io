@@ -11,6 +11,8 @@ Personal website is a great way to let others know you better. This blog is abou
 
 ![alt text](/assets/images/image.png)
 
+<!--more-->
+
 # Getting Started
 
 1, First, you should register a GitHub account.

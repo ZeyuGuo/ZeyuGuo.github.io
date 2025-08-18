@@ -9,6 +9,8 @@ tags:
 
 This is a blog about how to install the newest `Vivado 2024.1` in Docker container.
 
+<!--more-->
+
 # preparation
 
 First, you should install [`Docker`](https://docs.docker.com/engine/install/ubuntu/) and [`Vivado` install package](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools.html).
